@@ -1,37 +1,13 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+import styles from "../styles/page.module.css";
+import Link from "next/link";
+import Cabecalho from "@/_components/cabecalho";
 
 export default function Home() {
   return (
     <div className={styles.container}>
       {/* Cabeçalho */}
-      <header className={styles.header}>
-        <div className={styles.logo}>
-          <Image
-            src="/logo.png"
-            alt="Beleza Natural"
-            width={100}
-            height={60}
-            priority
-          />
-        </div>
-        <nav className={styles.nav}>
-          <a href="#destaques">Destaques</a>
-          <a href="#produtos">Produtos</a>
-          <a href="#beneficios">Benefícios</a>
-          <a href="#contato">Contato</a>
-        </nav>
-        <div className={styles.cart}>
-          <Image
-            src="/cart-icon.png"
-            alt="Carrinho"
-            width={24}
-            height={24}
-          />
-          <span className={styles.cartCount}>0</span>
-        </div>
-      </header>
-
+      <Cabecalho />
       {/* Banner Principal */}
       <section className={styles.hero}>
         <div className={styles.heroContent}>
