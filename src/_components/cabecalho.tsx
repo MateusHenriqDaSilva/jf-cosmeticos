@@ -31,7 +31,7 @@ export default function Cabecalho() {
         <Link href="/beneficios" className={isActive('/beneficios') ? styles.active : ''}>
           Benefícios
         </Link>
-        <Link href="/contato" className={isActive('#contato') ? styles.active : ''}>
+        <Link href="/contato" className={isActive('/contato') ? styles.active : ''}>
           Contato
         </Link>
       </nav>
