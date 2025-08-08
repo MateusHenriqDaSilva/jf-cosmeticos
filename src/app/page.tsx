@@ -1,0 +1,215 @@
+import Image from "next/image";
+import styles from "./page.module.css";
+
+export default function Home() {
+  return (
+    <div className={styles.container}>
+      {/* Cabeçalho */}
+      <header className={styles.header}>
+        <div className={styles.logo}>
+          <Image
+            src="/logo.png"
+            alt="Beleza Natural"
+            width={100}
+            height={60}
+            priority
+          />
+        </div>
+        <nav className={styles.nav}>
+          <a href="#destaques">Destaques</a>
+          <a href="#produtos">Produtos</a>
+          <a href="#beneficios">Benefícios</a>
+          <a href="#contato">Contato</a>
+        </nav>
+        <div className={styles.cart}>
+          <Image
+            src="/cart-icon.png"
+            alt="Carrinho"
+            width={24}
+            height={24}
+          />
+          <span className={styles.cartCount}>0</span>
+        </div>
+      </header>
+
+      {/* Banner Principal */}
+      <section className={styles.hero}>
+        <div className={styles.heroContent}>
+          <h1>Cosméticos Premium para sua Beleza</h1>
+          <p>Descubra nossa linha de produtos naturais e orgânicos</p>
+          <button className={styles.ctaButton}>VER COLEÇÃO</button>
+        </div>
+      </section>
+
+      {/* Seção de Destaques */}
+      <section id="destaques" className={styles.featured}>
+        <h2 className={styles.sectionTitle}>Destaques</h2>
+        <div className={styles.featuredGrid}>
+          {/* Gloss Labial Bebelo */}
+          <div className={styles.featuredItem}>
+            <Image
+              src="/gloss.jpg"
+              alt="Gloss Labial Bebelo"
+              width={300}
+              height={300}
+              className={styles.productImage}
+            />
+            <h3>Gloss Labial Bebelo</h3>
+            <div className={styles.variationOptions}>
+              <label className={styles.variationLabel}>Sabores:</label>
+              <div className={styles.radioGroup}>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="gloss-sabor" value="morango" defaultChecked />
+                  <span>Morango</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="gloss-sabor" value="uva" />
+                  <span>Uva</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="gloss-sabor" value="tutti-frutti" />
+                  <span>Tutti Frutti</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="gloss-sabor" value="melancia" />
+                  <span>Melancia</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="gloss-sabor" value="menta" />
+                  <span>Menta</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="gloss-sabor" value="banana" />
+                  <span>Banana</span>
+                </label>
+              </div>
+            </div>
+            <p className={styles.price}>R$ 29,90</p>
+            <button className={styles.buyButton}>COMPRAR</button>
+          </div>
+
+          {/* Body Splash */}
+          <div className={styles.featuredItem}>
+            <Image
+              src="/body.jpg"
+              alt="Body Splash"
+              width={300}
+              height={300}
+              className={styles.productImage}
+            />
+            <h3>Body Splash</h3>
+            <div className={styles.variationOptions}>
+              <label className={styles.variationLabel}>Fragrâncias:</label>
+              <div className={styles.radioGroup}>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="body-fragrancia" value="ameixa" defaultChecked />
+                  <span>Ameixa</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="body-fragrancia" value="vanilla" />
+                  <span>Banho de Vanilla</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="body-fragrancia" value="morango-champagne" />
+                  <span>Morango com Champagne</span>
+                </label>
+              </div>
+            </div>
+            <p className={styles.price}>R$ 49,90</p>
+            <button className={styles.buyButton}>COMPRAR</button>
+          </div>
+
+          {/* Babasoul - Sabonete Líquido */}
+          <div className={styles.featuredItem}>
+            <Image
+              src="/babasoul.jpg"
+              alt="Babasoul Sabonete Líquido"
+              width={300}
+              height={300}
+              className={styles.productImage}
+            />
+            <h3>Babasoul Sabonete Líquido</h3>
+            <p className={styles.noVariation}>Única versão</p>
+            <p className={styles.price}>R$ 39,90</p>
+            <button className={styles.buyButton}>COMPRAR</button>
+          </div>
+        </div>
+      </section>
+
+      {/* Seção de Benefícios */}
+      {/* <section id="beneficios" className={styles.benefits}>
+        <div className={styles.benefitsContainer}>
+          <h2 className={styles.sectionTitle}>Por que escolher nossos produtos?</h2>
+          <div className={styles.benefitsGrid}>
+            <div className={styles.benefitCard}>
+              <Image
+                src="/natural-icon.png"
+                alt="Natural"
+                width={60}
+                height={60}
+              />
+              <h3>100% Natural</h3>
+              <p>Ingredientes naturais e orgânicos</p>
+            </div>
+            <div className={styles.benefitCard}>
+              <Image
+                src="/vegan-icon.png"
+                alt="Vegano"
+                width={60}
+                height={60}
+              />
+              <h3>Vegano</h3>
+              <p>Livre de crueldade animal</p>
+            </div>
+            <div className={styles.benefitCard}>
+              <Image
+                src="/eco-icon.png"
+                alt="Ecológico"
+                width={60}
+                height={60}
+              />
+              <h3>Ecológico</h3>
+              <p>Embalagens sustentáveis</p>
+            </div>
+          </div>
+        </div>
+      </section> */}
+
+      {/* Newsletter */}
+      <section className={styles.newsletter}>
+        <div className={styles.newsletterContent}>
+          <h2>Receba nossas ofertas</h2>
+          <p>Cadastre-se para receber promoções exclusivas</p>
+          <form className={styles.newsletterForm}>
+            <input type="email" placeholder="Seu melhor e-mail" />
+            <button type="submit">ASSINAR</button>
+          </form>
+        </div>
+      </section>
+
+      {/* Rodapé */}
+      <footer className={styles.footer}>
+        <div className={styles.footerContent}>
+          <div className={styles.footerSection}>
+            <h3>Beleza Natural</h3>
+            <p>Sua beleza em harmonia com a natureza</p>
+          </div>
+          <div className={styles.footerSection}>
+            <h3>Links Úteis</h3>
+            <a href="#">Sobre nós</a>
+            <a href="#">Política de entrega</a>
+            <a href="#">Trocas e devoluções</a>
+          </div>
+          <div className={styles.footerSection}>
+            <h3>Contato</h3>
+            <p>contato@belezanatural.com</p>
+            <p>(11) 98765-4321</p>
+          </div>
+        </div>
+        <div className={styles.footerBottom}>
+          <p>&copy; 2023 Beleza Natural. Todos os direitos reservados.</p>
+        </div>
+      </footer>
+    </div>
+  );
+}
