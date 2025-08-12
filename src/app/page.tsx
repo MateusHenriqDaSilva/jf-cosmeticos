@@ -64,7 +64,13 @@ export default function Home() {
               </div>
             </div>
             <p className={styles.price}>R$ 29,90</p>
-            <button className={styles.buyButton}>COMPRAR</button>
+            <div className={styles.productActions}>
+              <button className={styles.cartButton}>
+                <Image src="/carrinho.png" alt="Carrinho" width={20} height={20} />
+                ADICIONAR
+              </button>
+              <button className={styles.checkoutButton}>COMPRAR AGORA</button>
+            </div>
           </div>
 
           {/* Body Splash */}
@@ -95,7 +101,13 @@ export default function Home() {
               </div>
             </div>
             <p className={styles.price}>R$ 49,90</p>
-            <button className={styles.buyButton}>COMPRAR</button>
+            <div className={styles.productActions}>
+              <button className={styles.cartButton}>
+                <Image src="/carrinho.png" alt="Carrinho" width={20} height={20} />
+                ADICIONAR
+              </button>
+              <button className={styles.checkoutButton}>COMPRAR AGORA</button>
+            </div>
           </div>
 
           {/* Babasoul - Sabonete Líquido */}
@@ -110,7 +122,13 @@ export default function Home() {
             <h3>Babasoul Sabonete Líquido</h3>
             <p className={styles.noVariation}>Única versão</p>
             <p className={styles.price}>R$ 39,90</p>
-            <button className={styles.buyButton}>COMPRAR</button>
+            <div className={styles.productActions}>
+              <button className={styles.cartButton}>
+                <Image src="/carrinho.png" alt="Carrinho" width={20} height={20} />
+                ADICIONAR
+              </button>
+              <button className={styles.checkoutButton}>COMPRAR AGORA</button>
+            </div>
           </div>
         </div>
       </section>

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "../../styles/produtos.module.css";
 import Cabecalho from "@/_components/cabecalho";
+import Rodape from "@/_components/rodape";
 
 export default function Produtos() {
   return (
@@ -181,7 +182,7 @@ export default function Produtos() {
             <button className={styles.buyButton}>COMPRAR</button>
           </div>
 
-                    {/* Novo Produto 3 - Kit Presente */}
+          {/* Novo Produto 3 - Kit Presente */}
           <div className={styles.productCard}>
             <Image
               src="/3.jpg"
@@ -212,7 +213,7 @@ export default function Produtos() {
             <button className={styles.buyButton}>COMPRAR</button>
           </div>
 
-                    {/* Novo Produto 3 - Kit Presente */}
+          {/* Novo Produto 3 - Kit Presente */}
           <div className={styles.productCard}>
             <Image
               src="/4.jpg"
@@ -243,7 +244,7 @@ export default function Produtos() {
             <button className={styles.buyButton}>COMPRAR</button>
           </div>
 
-                    {/* Novo Produto 3 - Kit Presente */}
+          {/* Novo Produto 3 - Kit Presente */}
           <div className={styles.productCard}>
             <Image
               src="/5.jpg"
@@ -274,7 +275,7 @@ export default function Produtos() {
             <button className={styles.buyButton}>COMPRAR</button>
           </div>
 
-                    {/* Novo Produto 3 - Kit Presente */}
+          {/* Novo Produto 3 - Kit Presente */}
           <div className={styles.productCard}>
             <Image
               src="/6.jpg"
@@ -305,7 +306,7 @@ export default function Produtos() {
             <button className={styles.buyButton}>COMPRAR</button>
           </div>
 
-                    {/* Novo Produto 3 - Kit Presente */}
+          {/* Novo Produto 3 - Kit Presente */}
           <div className={styles.productCard}>
             <Image
               src="/7.jpg"
@@ -336,7 +337,7 @@ export default function Produtos() {
             <button className={styles.buyButton}>COMPRAR</button>
           </div>
 
-                    {/* Novo Produto 3 - Kit Presente */}
+          {/* Novo Produto 3 - Kit Presente */}
           <div className={styles.productCard}>
             <Image
               src="/8.jpg"
@@ -367,7 +368,7 @@ export default function Produtos() {
             <button className={styles.buyButton}>COMPRAR</button>
           </div>
 
-                    {/* Novo Produto 3 - Kit Presente */}
+          {/* Novo Produto 3 - Kit Presente */}
           <div className={styles.productCard}>
             <Image
               src="/9.jpg"
@@ -460,7 +461,7 @@ export default function Produtos() {
             <button className={styles.buyButton}>COMPRAR</button>
           </div>
 
-                    {/* Novo Produto 3 - Kit Presente */}
+          {/* Novo Produto 3 - Kit Presente */}
           <div className={styles.productCard}>
             <Image
               src="/12.jpg"
@@ -491,7 +492,7 @@ export default function Produtos() {
             <button className={styles.buyButton}>COMPRAR</button>
           </div>
 
-                    {/* Novo Produto 3 - Kit Presente */}
+          {/* Novo Produto 3 - Kit Presente */}
           <div className={styles.productCard}>
             <Image
               src="/13.jpg"
@@ -522,7 +523,7 @@ export default function Produtos() {
             <button className={styles.buyButton}>COMPRAR</button>
           </div>
 
-                    {/* Novo Produto 3 - Kit Presente */}
+          {/* Novo Produto 3 - Kit Presente */}
           <div className={styles.productCard}>
             <Image
               src="/14.jpg"
@@ -553,7 +554,7 @@ export default function Produtos() {
             <button className={styles.buyButton}>COMPRAR</button>
           </div>
 
-                    {/* Novo Produto 3 - Kit Presente */}
+          {/* Novo Produto 3 - Kit Presente */}
           <div className={styles.productCard}>
             <Image
               src="/15.jpg"
@@ -584,7 +585,7 @@ export default function Produtos() {
             <button className={styles.buyButton}>COMPRAR</button>
           </div>
 
-                    {/* Novo Produto 3 - Kit Presente */}
+          {/* Novo Produto 3 - Kit Presente */}
           <div className={styles.productCard}>
             <Image
               src="/16.jpg"
@@ -615,7 +616,7 @@ export default function Produtos() {
             <button className={styles.buyButton}>COMPRAR</button>
           </div>
 
-                    {/* Novo Produto 3 - Kit Presente */}
+          {/* Novo Produto 3 - Kit Presente */}
           <div className={styles.productCard}>
             <Image
               src="/17.jpg"
@@ -646,7 +647,7 @@ export default function Produtos() {
             <button className={styles.buyButton}>COMPRAR</button>
           </div>
 
-                    {/* Novo Produto 3 - Kit Presente */}
+          {/* Novo Produto 3 - Kit Presente */}
           <div className={styles.productCard}>
             <Image
               src="/18.jpg"
@@ -676,8 +677,6 @@ export default function Produtos() {
             <p className={styles.price}>R$ 99,90</p>
             <button className={styles.buyButton}>COMPRAR</button>
           </div>
-
-          
         </div>
       </section>
 
@@ -694,28 +693,7 @@ export default function Produtos() {
       </section>
 
       {/* Rodapé */}
-      <footer className={styles.footer}>
-        <div className={styles.footerContent}>
-          <div className={styles.footerSection}>
-            <h3>Beleza Natural</h3>
-            <p>Sua beleza em harmonia com a natureza</p>
-          </div>
-          <div className={styles.footerSection}>
-            <h3>Links Úteis</h3>
-            <a href="/">Home</a>
-            <a href="/produtos">Produtos</a>
-            <a href="#">Trocas e devoluções</a>
-          </div>
-          <div className={styles.footerSection}>
-            <h3>Contato</h3>
-            <p>contato@belezanatural.com</p>
-            <p>(11) 98765-4321</p>
-          </div>
-        </div>
-        <div className={styles.footerBottom}>
-          <p>&copy; 2023 Beleza Natural. Todos os direitos reservados.</p>
-        </div>
-      </footer>
+      <Rodape />
     </div>
   );
 }

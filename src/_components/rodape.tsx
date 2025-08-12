@@ -12,12 +12,14 @@ export default function Rodape() {
                     <h3>Links Úteis</h3>
                     {/* <a href="#">Sobre nós</a>
                     <a href="#">Política de entrega</a> */}
-                    <a href="#">Trocas e devoluções</a>
+                    <a href="/contato">Trocas e devoluções</a>
                 </div>
                 <div className={styles.footerSection}>
                     <h3>Contato</h3>
                     <p>chicocosmeticos2025@gmail.com</p>
-                    <p>(11) 98765-4321</p>
+                    <p>(14) 99111-4764 </p>
+                    <p>(14) 99673-4179</p>
+                    <p>(14) 98116-8152</p>
                 </div>
             </div>
             <div className={styles.footerBottom}>

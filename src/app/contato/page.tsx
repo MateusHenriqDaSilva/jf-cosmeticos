@@ -26,35 +26,35 @@ export default function Contato() {
             
             <div className={styles.contactItem}>
               <Image
-                src="/phone-icon.png"
+                src="/telefone.png"
                 alt="Telefone"
                 width={24}
                 height={24}
               />
               <div>
                 <h3>Telefone</h3>
+                <p>(14) 99111-4764 </p>
+                <p>(14) 99673-4179</p>
                 <p>(14) 98116-8152</p>
-                <p>(14) 1234-5678</p>
               </div>
             </div>
 
             <div className={styles.contactItem}>
               <Image
-                src="/email-icon.png"
+                src="/email.png"
                 alt="Email"
                 width={24}
                 height={24}
               />
               <div>
                 <h3>Email</h3>
-                <p>contato@belezanatural.com</p>
-                <p>vendas@belezanatural.com</p>
+                <p>chicocosmeticos2025@gmail.com</p>
               </div>
             </div>
 
             <div className={styles.contactItem}>
               <Image
-                src="/location-icon.png"
+                src="/endereco.png"
                 alt="Localização"
                 width={24}
                 height={24}
