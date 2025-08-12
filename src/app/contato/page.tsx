@@ -71,13 +71,13 @@ export default function Contato() {
               <h3>Redes Sociais</h3>
               <div className={styles.socialIcons}>
                 <a href="#" aria-label="Instagram">
-                  <Image src="/instagram-icon.png" alt="Instagram" width={32} height={32} />
+                  <Image src="/instagram.png" alt="Instagram" width={32} height={32} />
                 </a>
                 <a href="#" aria-label="Facebook">
-                  <Image src="/facebook-icon.png" alt="Facebook" width={32} height={32} />
+                  <Image src="/facebook.png" alt="Facebook" width={32} height={32} />
                 </a>
                 <a href="#" aria-label="WhatsApp">
-                  <Image src="/whatsapp-icon.png" alt="WhatsApp" width={32} height={32} />
+                  <Image src="/whatsapp.png" alt="WhatsApp" width={32} height={32} />
                 </a>
               </div>
             </div>

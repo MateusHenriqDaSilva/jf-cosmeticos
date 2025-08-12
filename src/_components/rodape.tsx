@@ -16,12 +16,12 @@ export default function Rodape() {
                 </div>
                 <div className={styles.footerSection}>
                     <h3>Contato</h3>
-                    <p>contato@belezanatural.com</p>
+                    <p>chicocosmeticos2025@gmail.com</p>
                     <p>(11) 98765-4321</p>
                 </div>
             </div>
             <div className={styles.footerBottom}>
-                <p>&copy; 2023 Beleza Natural. Todos os direitos reservados.</p>
+                <p>&copy; 2023 Jf Cosmeticos Beleza Natural. Todos os direitos reservados.</p>
             </div>
         </footer>
     )
