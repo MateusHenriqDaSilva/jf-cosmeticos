@@ -7,7 +7,7 @@ import Rodape from "@/_components/rodape";
 export default function Beneficios() {
   return (
     <div className={styles.container}>
-        <Cabecalho />
+      <Cabecalho />
       {/* Banner Hero */}
       <section className={styles.benefitsHero}>
         <div className={styles.heroContent}>
@@ -120,7 +120,6 @@ export default function Beneficios() {
           </div>
         </div>
       </section>
-
       {/* Rodapé */}
       <Rodape />
     </div>

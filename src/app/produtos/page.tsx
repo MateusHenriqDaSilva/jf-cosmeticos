@@ -122,7 +122,7 @@ export default function Produtos() {
           {/* Novo Produto 2 - Creme Corporal */}
           <div className={styles.productCard}>
             <Image
-              src="/creme-corporal.jpg"
+              src="/1.jpg"
               alt="Creme Corporal Hidratante"
               width={280}
               height={280}
@@ -153,7 +153,7 @@ export default function Produtos() {
           {/* Novo Produto 3 - Kit Presente */}
           <div className={styles.productCard}>
             <Image
-              src="/kit-presente.jpg"
+              src="/2.jpg"
               alt="Kit Presente Especial"
               width={280}
               height={280}
@@ -180,6 +180,504 @@ export default function Produtos() {
             <p className={styles.price}>R$ 99,90</p>
             <button className={styles.buyButton}>COMPRAR</button>
           </div>
+
+                    {/* Novo Produto 3 - Kit Presente */}
+          <div className={styles.productCard}>
+            <Image
+              src="/3.jpg"
+              alt="Kit Presente Especial"
+              width={280}
+              height={280}
+              className={styles.productImage}
+            />
+            <h3>Kit Presente Especial</h3>
+            <div className={styles.variationOptions}>
+              <label className={styles.variationLabel}>Opções:</label>
+              <div className={styles.radioGroup}>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="basico" defaultChecked />
+                  <span>Básico</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="premium" />
+                  <span>Premium</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="luxo" />
+                  <span>Luxo</span>
+                </label>
+              </div>
+            </div>
+            <p className={styles.price}>R$ 99,90</p>
+            <button className={styles.buyButton}>COMPRAR</button>
+          </div>
+
+                    {/* Novo Produto 3 - Kit Presente */}
+          <div className={styles.productCard}>
+            <Image
+              src="/4.jpg"
+              alt="Kit Presente Especial"
+              width={280}
+              height={280}
+              className={styles.productImage}
+            />
+            <h3>Kit Presente Especial</h3>
+            <div className={styles.variationOptions}>
+              <label className={styles.variationLabel}>Opções:</label>
+              <div className={styles.radioGroup}>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="basico" defaultChecked />
+                  <span>Básico</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="premium" />
+                  <span>Premium</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="luxo" />
+                  <span>Luxo</span>
+                </label>
+              </div>
+            </div>
+            <p className={styles.price}>R$ 99,90</p>
+            <button className={styles.buyButton}>COMPRAR</button>
+          </div>
+
+                    {/* Novo Produto 3 - Kit Presente */}
+          <div className={styles.productCard}>
+            <Image
+              src="/5.jpg"
+              alt="Kit Presente Especial"
+              width={280}
+              height={280}
+              className={styles.productImage}
+            />
+            <h3>Kit Presente Especial</h3>
+            <div className={styles.variationOptions}>
+              <label className={styles.variationLabel}>Opções:</label>
+              <div className={styles.radioGroup}>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="basico" defaultChecked />
+                  <span>Básico</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="premium" />
+                  <span>Premium</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="luxo" />
+                  <span>Luxo</span>
+                </label>
+              </div>
+            </div>
+            <p className={styles.price}>R$ 99,90</p>
+            <button className={styles.buyButton}>COMPRAR</button>
+          </div>
+
+                    {/* Novo Produto 3 - Kit Presente */}
+          <div className={styles.productCard}>
+            <Image
+              src="/6.jpg"
+              alt="Kit Presente Especial"
+              width={280}
+              height={280}
+              className={styles.productImage}
+            />
+            <h3>Kit Presente Especial</h3>
+            <div className={styles.variationOptions}>
+              <label className={styles.variationLabel}>Opções:</label>
+              <div className={styles.radioGroup}>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="basico" defaultChecked />
+                  <span>Básico</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="premium" />
+                  <span>Premium</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="luxo" />
+                  <span>Luxo</span>
+                </label>
+              </div>
+            </div>
+            <p className={styles.price}>R$ 99,90</p>
+            <button className={styles.buyButton}>COMPRAR</button>
+          </div>
+
+                    {/* Novo Produto 3 - Kit Presente */}
+          <div className={styles.productCard}>
+            <Image
+              src="/7.jpg"
+              alt="Kit Presente Especial"
+              width={280}
+              height={280}
+              className={styles.productImage}
+            />
+            <h3>Kit Presente Especial</h3>
+            <div className={styles.variationOptions}>
+              <label className={styles.variationLabel}>Opções:</label>
+              <div className={styles.radioGroup}>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="basico" defaultChecked />
+                  <span>Básico</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="premium" />
+                  <span>Premium</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="luxo" />
+                  <span>Luxo</span>
+                </label>
+              </div>
+            </div>
+            <p className={styles.price}>R$ 99,90</p>
+            <button className={styles.buyButton}>COMPRAR</button>
+          </div>
+
+                    {/* Novo Produto 3 - Kit Presente */}
+          <div className={styles.productCard}>
+            <Image
+              src="/8.jpg"
+              alt="Kit Presente Especial"
+              width={280}
+              height={280}
+              className={styles.productImage}
+            />
+            <h3>Kit Presente Especial</h3>
+            <div className={styles.variationOptions}>
+              <label className={styles.variationLabel}>Opções:</label>
+              <div className={styles.radioGroup}>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="basico" defaultChecked />
+                  <span>Básico</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="premium" />
+                  <span>Premium</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="luxo" />
+                  <span>Luxo</span>
+                </label>
+              </div>
+            </div>
+            <p className={styles.price}>R$ 99,90</p>
+            <button className={styles.buyButton}>COMPRAR</button>
+          </div>
+
+                    {/* Novo Produto 3 - Kit Presente */}
+          <div className={styles.productCard}>
+            <Image
+              src="/9.jpg"
+              alt="Kit Presente Especial"
+              width={280}
+              height={280}
+              className={styles.productImage}
+            />
+            <h3>Kit Presente Especial</h3>
+            <div className={styles.variationOptions}>
+              <label className={styles.variationLabel}>Opções:</label>
+              <div className={styles.radioGroup}>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="basico" defaultChecked />
+                  <span>Básico</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="premium" />
+                  <span>Premium</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="luxo" />
+                  <span>Luxo</span>
+                </label>
+              </div>
+            </div>
+            <p className={styles.price}>R$ 99,90</p>
+            <button className={styles.buyButton}>COMPRAR</button>
+          </div>
+
+          {/* Novo Produto 3 - Kit Presente */}
+          <div className={styles.productCard}>
+            <Image
+              src="/10.jpg"
+              alt="Kit Presente Especial"
+              width={280}
+              height={280}
+              className={styles.productImage}
+            />
+            <h3>Kit Presente Especial</h3>
+            <div className={styles.variationOptions}>
+              <label className={styles.variationLabel}>Opções:</label>
+              <div className={styles.radioGroup}>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="basico" defaultChecked />
+                  <span>Básico</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="premium" />
+                  <span>Premium</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="luxo" />
+                  <span>Luxo</span>
+                </label>
+              </div>
+            </div>
+            <p className={styles.price}>R$ 99,90</p>
+            <button className={styles.buyButton}>COMPRAR</button>
+          </div>
+
+          {/* Novo Produto 3 - Kit Presente */}
+          <div className={styles.productCard}>
+            <Image
+              src="/11.jpg"
+              alt="Kit Presente Especial"
+              width={280}
+              height={280}
+              className={styles.productImage}
+            />
+            <h3>Kit Presente Especial</h3>
+            <div className={styles.variationOptions}>
+              <label className={styles.variationLabel}>Opções:</label>
+              <div className={styles.radioGroup}>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="basico" defaultChecked />
+                  <span>Básico</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="premium" />
+                  <span>Premium</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="luxo" />
+                  <span>Luxo</span>
+                </label>
+              </div>
+            </div>
+            <p className={styles.price}>R$ 99,90</p>
+            <button className={styles.buyButton}>COMPRAR</button>
+          </div>
+
+                    {/* Novo Produto 3 - Kit Presente */}
+          <div className={styles.productCard}>
+            <Image
+              src="/12.jpg"
+              alt="Kit Presente Especial"
+              width={280}
+              height={280}
+              className={styles.productImage}
+            />
+            <h3>Kit Presente Especial</h3>
+            <div className={styles.variationOptions}>
+              <label className={styles.variationLabel}>Opções:</label>
+              <div className={styles.radioGroup}>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="basico" defaultChecked />
+                  <span>Básico</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="premium" />
+                  <span>Premium</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="luxo" />
+                  <span>Luxo</span>
+                </label>
+              </div>
+            </div>
+            <p className={styles.price}>R$ 99,90</p>
+            <button className={styles.buyButton}>COMPRAR</button>
+          </div>
+
+                    {/* Novo Produto 3 - Kit Presente */}
+          <div className={styles.productCard}>
+            <Image
+              src="/13.jpg"
+              alt="Kit Presente Especial"
+              width={280}
+              height={280}
+              className={styles.productImage}
+            />
+            <h3>Kit Presente Especial</h3>
+            <div className={styles.variationOptions}>
+              <label className={styles.variationLabel}>Opções:</label>
+              <div className={styles.radioGroup}>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="basico" defaultChecked />
+                  <span>Básico</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="premium" />
+                  <span>Premium</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="luxo" />
+                  <span>Luxo</span>
+                </label>
+              </div>
+            </div>
+            <p className={styles.price}>R$ 99,90</p>
+            <button className={styles.buyButton}>COMPRAR</button>
+          </div>
+
+                    {/* Novo Produto 3 - Kit Presente */}
+          <div className={styles.productCard}>
+            <Image
+              src="/14.jpg"
+              alt="Kit Presente Especial"
+              width={280}
+              height={280}
+              className={styles.productImage}
+            />
+            <h3>Kit Presente Especial</h3>
+            <div className={styles.variationOptions}>
+              <label className={styles.variationLabel}>Opções:</label>
+              <div className={styles.radioGroup}>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="basico" defaultChecked />
+                  <span>Básico</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="premium" />
+                  <span>Premium</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="luxo" />
+                  <span>Luxo</span>
+                </label>
+              </div>
+            </div>
+            <p className={styles.price}>R$ 99,90</p>
+            <button className={styles.buyButton}>COMPRAR</button>
+          </div>
+
+                    {/* Novo Produto 3 - Kit Presente */}
+          <div className={styles.productCard}>
+            <Image
+              src="/15.jpg"
+              alt="Kit Presente Especial"
+              width={280}
+              height={280}
+              className={styles.productImage}
+            />
+            <h3>Kit Presente Especial</h3>
+            <div className={styles.variationOptions}>
+              <label className={styles.variationLabel}>Opções:</label>
+              <div className={styles.radioGroup}>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="basico" defaultChecked />
+                  <span>Básico</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="premium" />
+                  <span>Premium</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="luxo" />
+                  <span>Luxo</span>
+                </label>
+              </div>
+            </div>
+            <p className={styles.price}>R$ 99,90</p>
+            <button className={styles.buyButton}>COMPRAR</button>
+          </div>
+
+                    {/* Novo Produto 3 - Kit Presente */}
+          <div className={styles.productCard}>
+            <Image
+              src="/16.jpg"
+              alt="Kit Presente Especial"
+              width={280}
+              height={280}
+              className={styles.productImage}
+            />
+            <h3>Kit Presente Especial</h3>
+            <div className={styles.variationOptions}>
+              <label className={styles.variationLabel}>Opções:</label>
+              <div className={styles.radioGroup}>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="basico" defaultChecked />
+                  <span>Básico</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="premium" />
+                  <span>Premium</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="luxo" />
+                  <span>Luxo</span>
+                </label>
+              </div>
+            </div>
+            <p className={styles.price}>R$ 99,90</p>
+            <button className={styles.buyButton}>COMPRAR</button>
+          </div>
+
+                    {/* Novo Produto 3 - Kit Presente */}
+          <div className={styles.productCard}>
+            <Image
+              src="/17.jpg"
+              alt="Kit Presente Especial"
+              width={280}
+              height={280}
+              className={styles.productImage}
+            />
+            <h3>Kit Presente Especial</h3>
+            <div className={styles.variationOptions}>
+              <label className={styles.variationLabel}>Opções:</label>
+              <div className={styles.radioGroup}>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="basico" defaultChecked />
+                  <span>Básico</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="premium" />
+                  <span>Premium</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="luxo" />
+                  <span>Luxo</span>
+                </label>
+              </div>
+            </div>
+            <p className={styles.price}>R$ 99,90</p>
+            <button className={styles.buyButton}>COMPRAR</button>
+          </div>
+
+                    {/* Novo Produto 3 - Kit Presente */}
+          <div className={styles.productCard}>
+            <Image
+              src="/18.jpg"
+              alt="Kit Presente Especial"
+              width={280}
+              height={280}
+              className={styles.productImage}
+            />
+            <h3>Kit Presente Especial</h3>
+            <div className={styles.variationOptions}>
+              <label className={styles.variationLabel}>Opções:</label>
+              <div className={styles.radioGroup}>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="basico" defaultChecked />
+                  <span>Básico</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="premium" />
+                  <span>Premium</span>
+                </label>
+                <label className={styles.radioLabel}>
+                  <input type="radio" name="kit-opcao" value="luxo" />
+                  <span>Luxo</span>
+                </label>
+              </div>
+            </div>
+            <p className={styles.price}>R$ 99,90</p>
+            <button className={styles.buyButton}>COMPRAR</button>
+          </div>
+
+          
         </div>
       </section>
 
