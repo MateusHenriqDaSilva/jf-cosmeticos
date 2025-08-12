@@ -8,14 +8,6 @@ export default function Produtos() {
       {/* Cabeçalho */}
       <Cabecalho />
 
-      {/* Banner de Produtos */}
-      {/* <section className={styles.productsHero}>
-        <div className={styles.heroContent}>
-          <h1>Nossos Produtos</h1>
-          <p>Descubra nossa linha completa de cosméticos naturais</p>
-        </div>
-      </section> */}
-
       {/* Seção de Produtos */}
       <section className={styles.products}>
         <div className={styles.productsGrid}>
