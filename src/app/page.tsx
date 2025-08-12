@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "../styles/page.module.css";
 import Link from "next/link";
 import Cabecalho from "@/_components/cabecalho";
+import Rodape from "@/_components/rodape";
 
 export default function Home() {
   return (
@@ -13,7 +14,9 @@ export default function Home() {
         <div className={styles.heroContent}>
           <h1>Cosméticos Premium para sua Beleza</h1>
           <p>Descubra nossa linha de produtos naturais e orgânicos</p>
-          <button className={styles.ctaButton}>VER COLEÇÃO</button>
+          <Link href={'/produtos'}>
+            <button className={styles.ctaButton}>VER COLEÇÃO</button>
+          </Link>
         </div>
       </section>
 
@@ -112,45 +115,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Seção de Benefícios */}
-      {/* <section id="beneficios" className={styles.benefits}>
-        <div className={styles.benefitsContainer}>
-          <h2 className={styles.sectionTitle}>Por que escolher nossos produtos?</h2>
-          <div className={styles.benefitsGrid}>
-            <div className={styles.benefitCard}>
-              <Image
-                src="/natural-icon.png"
-                alt="Natural"
-                width={60}
-                height={60}
-              />
-              <h3>100% Natural</h3>
-              <p>Ingredientes naturais e orgânicos</p>
-            </div>
-            <div className={styles.benefitCard}>
-              <Image
-                src="/vegan-icon.png"
-                alt="Vegano"
-                width={60}
-                height={60}
-              />
-              <h3>Vegano</h3>
-              <p>Livre de crueldade animal</p>
-            </div>
-            <div className={styles.benefitCard}>
-              <Image
-                src="/eco-icon.png"
-                alt="Ecológico"
-                width={60}
-                height={60}
-              />
-              <h3>Ecológico</h3>
-              <p>Embalagens sustentáveis</p>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
       {/* Newsletter */}
       <section className={styles.newsletter}>
         <div className={styles.newsletterContent}>
@@ -164,28 +128,7 @@ export default function Home() {
       </section>
 
       {/* Rodapé */}
-      <footer className={styles.footer}>
-        <div className={styles.footerContent}>
-          <div className={styles.footerSection}>
-            <h3>Beleza Natural</h3>
-            <p>Sua beleza em harmonia com a natureza</p>
-          </div>
-          <div className={styles.footerSection}>
-            <h3>Links Úteis</h3>
-            <a href="#">Sobre nós</a>
-            <a href="#">Política de entrega</a>
-            <a href="#">Trocas e devoluções</a>
-          </div>
-          <div className={styles.footerSection}>
-            <h3>Contato</h3>
-            <p>contato@belezanatural.com</p>
-            <p>(11) 98765-4321</p>
-          </div>
-        </div>
-        <div className={styles.footerBottom}>
-          <p>&copy; 2023 Beleza Natural. Todos os direitos reservados.</p>
-        </div>
-      </footer>
+      <Rodape />
     </div>
   );
 }
