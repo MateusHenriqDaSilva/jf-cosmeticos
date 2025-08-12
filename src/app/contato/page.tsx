@@ -3,6 +3,7 @@ import React from 'react';
 import styles from '../../styles/contato.module.css';
 import Cabecalho from '../../_components/cabecalho';
 import Image from 'next/image';
+import Rodape from '@/_components/rodape';
 
 export default function Contato() {
   return (
@@ -118,28 +119,7 @@ export default function Contato() {
       </section>
 
       {/* Rodapé */}
-      <footer className={styles.footer}>
-        <div className={styles.footerContent}>
-          <div className={styles.footerSection}>
-            <h3>Beleza Natural</h3>
-            <p>Sua beleza em harmonia com a natureza</p>
-          </div>
-          <div className={styles.footerSection}>
-            <h3>Links Úteis</h3>
-            <a href="/">Home</a>
-            <a href="/produtos">Produtos</a>
-            <a href="/contato">Contato</a>
-          </div>
-          <div className={styles.footerSection}>
-            <h3>Contato</h3>
-            <p>(14) 98116-8152</p>
-            <p>contato@belezanatural.com</p>
-          </div>
-        </div>
-        <div className={styles.footerBottom}>
-          <p>&copy; {new Date().getFullYear()} Beleza Natural. Todos os direitos reservados.</p>
-        </div>
-      </footer>
+      <Rodape />
     </div>
   );
 }

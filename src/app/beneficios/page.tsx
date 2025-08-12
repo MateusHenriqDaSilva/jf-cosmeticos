@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "../../styles/beneficios.module.css";
 import Link from "next/link";
 import Cabecalho from "@/_components/cabecalho";
+import Rodape from "@/_components/rodape";
 
 export default function Beneficios() {
   return (
@@ -121,28 +122,7 @@ export default function Beneficios() {
       </section>
 
       {/* Rodapé */}
-      <footer className={styles.footer}>
-        <div className={styles.footerContent}>
-          <div className={styles.footerSection}>
-            <h3>Beleza Natural</h3>
-            <p>Sua beleza em harmonia com a natureza</p>
-          </div>
-          <div className={styles.footerSection}>
-            <h3>Links Úteis</h3>
-            <Link href="/">Home</Link>
-            <Link href="/produtos">Produtos</Link>
-            <Link href="/beneficios">Benefícios</Link>
-          </div>
-          <div className={styles.footerSection}>
-            <h3>Contato</h3>
-            <p>contato@belezanatural.com</p>
-            <p>(11) 98765-4321</p>
-          </div>
-        </div>
-        <div className={styles.footerBottom}>
-          <p>&copy; 2023 Beleza Natural. Todos os direitos reservados.</p>
-        </div>
-      </footer>
+      <Rodape />
     </div>
   );
 }
